@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+<head>
+    <link rel="stylesheet" href="main.css">
+            <style>
+            #bgvideo {
+                opacity: 30%;
+                position:fixed;
+               
+                min-width: 100%;
+                max-height: 2000px;
+                bottom: -65px;
+                
+                
+            }
+            .content {
+                position:fixed;
+                bottom:0;
+                width:100%;
+            }
+           
+        
+            </style>
+
+<meta charset="utf-8">
+
+    <title>Lindo</title>
+</head>
+
+
+
+
+
+<body onLoad="getVolume;">
+
+
+
+
+
+ <video autoplay loop id="bgvideo">
+<source src="bg.mp4" type="video/mp4">
+Your Browser does not support html 5 video.
+
+ </video>
+
+ <script>
+    document.getElementsByTagName('video')[0].volume = 0.25;
+    </script> 
+
+        <section class="fullscreen text-content">
+        </div>
+        <div id="center">
+            <h1 style="font-family: derk; text-shadow: 0 0 0.40em #bababa;">Lindo</h1>
+        </div>
+            <div id="center2">
+            <div class="socials">
+            
+                <span>
+            <a href="https://youtube.com/c/lindouwu" style="text-decoration:none; text-shadow: 0 0 0.40em #000000; font-family: derk; font-size: 1em;">Youtube</a>
+            <a href="https://twitter.com/@lindouwu" style="text-decoration:none; text-shadow: 0 0 0.40em #000000; font-family: derk; font-size: 1em;">Twitter</a>
+            <a href="https://instagram.com/lindouwu_" style="text-decoration:none; text-shadow: 0 0 0.40em #000000; font-family: derk; font-size: 1em;">Instagram</a>
+            <a href="https://tiktok.com/@lindouwu" style="text-decoration:none; text-shadow: 0 0 0.40em #000000; font-family: derk; font-size: 1em;">Tiktok</a>
+                </span>
+            </div>
+            </div>
+        
+
+        
+      
+    
+
+    </div>
+
+    </body>
+    </html>
